@@ -1,3 +1,5 @@
+-- E-Commerce Database Table
+
 CREATE TABLE users (
 	id integer PRIMARY KEY,
 	full_name varchar(30),
@@ -22,3 +24,4 @@ CREATE TABLE countries (
 	name varchar(20),
 	continent_name varchar(20)
 );
+
